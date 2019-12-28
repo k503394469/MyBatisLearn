@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mybatis_proxy_dao" />
         <module name="mybatis_dao" />
         <module name="helloWorld" />
+        <module name="mybatis_mapper" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="helloWorld" target="11" />
       <module name="mybatis_dao" target="11" />
+      <module name="mybatis_mapper" target="11" />
+      <module name="mybatis_proxy_dao" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
