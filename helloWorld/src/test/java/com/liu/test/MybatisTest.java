@@ -1,4 +1,4 @@
-package com.liu;
+package com.liu.test;
 
 import com.liu.domain.User;
 import org.apache.ibatis.io.Resources;
@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-public class test {
+public class MybatisTest {
     @Test
     public void test1() throws IOException {
         //加载核心配置文件

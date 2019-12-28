@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mybatis_dao" />
         <module name="helloWorld" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="helloWorld" target="11" />
+      <module name="mybatis_dao" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
