@@ -2,9 +2,11 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/helloWorld" />
+    <file type="web" url="file://$PROJECT_DIR$/mybatis_config_demo" />
     <file type="web" url="file://$PROJECT_DIR$/mybatis_dao" />
     <file type="web" url="file://$PROJECT_DIR$/mybatis_mapper" />
     <file type="web" url="file://$PROJECT_DIR$/mybatis_proxy_dao" />
+    <file type="web" url="file://$PROJECT_DIR$/typeHandlers_demo" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -16,6 +18,7 @@
         <option value="$PROJECT_DIR$/mybatis_dao/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis_proxy_dao/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis_mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_config_demo/pom.xml" />
       </list>
     </option>
   </component>

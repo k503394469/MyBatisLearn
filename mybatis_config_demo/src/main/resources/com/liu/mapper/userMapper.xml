@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--与dao层全限定类名一致-->
+<mapper namespace="com.liu.dao.UserDao">
+    <insert id="save" parameterType="user">
+        insert into user values (null,#{username},#{password},#{birthday});
+    </insert>
+    <select id="findById" parameterType="Integer" resultType="user">
+        select * from user where id=#{id};
+    </select>
+    <select id="findAll" resultType="user">
+        select * from user
+    </select>
+</mapper>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="druid.properties"></properties>
+    <typeAliases>
+        <typeAlias type="com.liu.domain.User" alias="user"></typeAlias>
+    </typeAliases>
+    <!--Java类型与sql类型互相转换-->
+    <typeHandlers>
+        <typeHandler handler="com.liu.typeHandler.DateTypeHandler"></typeHandler>
+    </typeHandlers>
+    <!--配置插件(PageHelper)-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!--指定语言是mysql(可以配置oracle等)-->
+            <!--<property name="dialect" value="Mysql"/>-->
+        </plugin>
+    </plugins>
+    <environments default="env1">
+        <environment id="env1">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driverClassName}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--加载映射文件-->
+    <mappers>
+        <mapper resource="com/liu/mapper/userMapper.xml"/>
+    </mappers>
+</configuration>
