@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mybatis_anno" />
         <module name="mybatis_config_demo" />
-        <module name="mybatis_multiple" />
         <module name="mybatis_mapper" />
         <module name="mybatis_dao" />
         <module name="helloWorld" />
@@ -16,6 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
       <module name="helloWorld" target="11" />
+      <module name="mybatis_anno" target="11" />
       <module name="mybatis_config_demo" target="11" />
       <module name="mybatis_dao" target="11" />
       <module name="mybatis_mapper" target="11" />
