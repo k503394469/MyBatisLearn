@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/mybatis_mapper/mybatis_mapper.iml" filepath="$PROJECT_DIR$/mybatis_mapper/mybatis_mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis_multiple/mybatis_multiple.iml" filepath="$PROJECT_DIR$/mybatis_multiple/mybatis_multiple.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis_proxy_dao/mybatis_proxy_dao.iml" filepath="$PROJECT_DIR$/mybatis_proxy_dao/mybatis_proxy_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm/ssm.iml" filepath="$PROJECT_DIR$/ssm/ssm.iml" />
     </modules>
   </component>
 </project>

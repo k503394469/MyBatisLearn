@@ -8,6 +8,7 @@
     <file type="web" url="file://$PROJECT_DIR$/mybatis_mapper" />
     <file type="web" url="file://$PROJECT_DIR$/mybatis_multiple" />
     <file type="web" url="file://$PROJECT_DIR$/mybatis_proxy_dao" />
+    <file type="web" url="file://$PROJECT_DIR$/ssm" />
     <file type="web" url="file://$PROJECT_DIR$/typeHandlers_demo" />
   </component>
   <component name="JavaScriptSettings">
@@ -23,8 +24,12 @@
         <option value="$PROJECT_DIR$/mybatis_config_demo/pom.xml" />
         <option value="$PROJECT_DIR$/multiple/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis_anno/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm/pom.xml" />
       </list>
     </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/ssm/src/main/resources/com/liu/mapper/accountMapper.xml" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="11.0.5" project-jdk-type="JavaSDK" />
 </project>

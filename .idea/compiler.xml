@@ -12,6 +12,7 @@
         <module name="mybatis_dao" />
         <module name="helloWorld" />
         <module name="mybatis_proxy_dao" />
+        <module name="ssm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
@@ -22,6 +23,8 @@
       <module name="mybatis_mapper" target="11" />
       <module name="mybatis_multiple" target="11" />
       <module name="mybatis_proxy_dao" target="11" />
+      <module name="mybatis_spring" target="1.5" />
+      <module name="ssm" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
